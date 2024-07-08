@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JJ Estética Automotiva</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Arquivo CSS para estilos -->
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="logo.jpg" alt="Logo JJ Estética Automotiva">
+            <h1>JJ Estética Automotiva</h1>
+            <p class="slogan">Em agilidade e eficiência, somos referência.</p>
+            <nav>
+                <ul>
+                    <li><a href="#quem-somos">Quem Somos</a></li>
+                    <li><a href="#servicos">Nossos Serviços</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                    <li><a href="#trabalhe-conosco">Trabalhe Conosco</a></li>
+                    <li><a href="#agendamento">Agendamento</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="quem-somos">
+        <div class="container">
+            <h2>Quem Somos</h2>
+            <p>Somos uma empresa especializada em estética automotiva, oferecendo serviços de alta qualidade para deixar seu veículo impecável.</p>
+        </div>
+    </section>
+
+    <section id="servicos">
+        <div class="container">
+            <h2>Nossos Serviços</h2>
+
+            <div class="servico">
+                <img src="lavagem.jpg" alt="Lavagem Completa">
+                <h3>Lavagem Completa</h3>
+                <p>Descrição do serviço. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p class="preco">Preço: R$ 100,00</p>
+            </div>
+
+            <div class="servico">
+                <img src="polimento.jpg" alt="Polimento e Enceramento">
+                <h3>Polimento e Enceramento</h3>
+                <p>Descrição do serviço. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p class="preco">Preço: R$ 150,00</p>
+            </div>
+            
+            <!-- Adicione mais serviços conforme necessário -->
+
+        </div>
+    </section>
+
+    <section id="contato">
+        <div class="container">
+            <h2>Contato</h2>
+            <p>Entre em contato conosco para agendar um serviço ou tirar dúvidas.</p>
+            <p>Telefone: (21) 99999-9999</p>
+            <p>Email: <a href="mailto:contato@jj.com">contato@jj.com</a></p>
+        </div>
+    </section>
+
+    <section id="trabalhe-conosco">
+        <div class="container">
+            <h2>Trabalhe Conosco</h2>
+            <p>Envie seu currículo para trabalhar conosco.</p>
+            <form action="#">
+                <label for="curriculo">Envie seu currículo (PDF):</label><br>
+                <input type="file" id="curriculo" name="curriculo" accept=".pdf" required><br><br>
+                <button type="submit">Enviar Currículo</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="agendamento">
+        <div class="container">
+            <h2>Agendamento de Serviços</h2>
+            <p>Agende seu serviço preenchendo o formulário abaixo:</p>
+            <form action="#">
+                <label for="nome">Nome:</label><br>
+                <input type="text" id="nome" name="nome" required><br><br>
+                
+                <label for="telefone">Telefone:</label><br>
+                <input type="tel" id="telefone" name="telefone" pattern="[0-9]{2} [0-9]{4,5}-[0-9]{4}" placeholder="(xx) 99999-9999" required><br><br>
+                
+                <label for="servico">Serviço:</label><br>
+                <select id="servico" name="servico" required>
+                    <option value="">Selecione o serviço</option>
+                    <option value="lavagem">Lavagem Completa</option>
+                    <option value="polimento">Polimento e Enceramento</option>
+                    <!-- Adicione mais serviços conforme necessário -->
+                </select><br><br>
+                
+                <label for="data">Data:</label><br>
+                <input type="date" id="data" name="data" required><br><br>
+                
+                <button type="submit">Agendar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 JJ Estética Automotiva. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

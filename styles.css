@@ -1,0 +1,149 @@
+/* Reset de Estilos (opcional) */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #333; /* cor de fundo predominante */
+    color: #fff; /* cor do texto principal */
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto; /* centraliza o conteúdo na página */
+    padding: 20px;
+}
+
+header {
+    padding: 20px 0;
+    text-align: center;
+}
+
+header img {
+    width: 100px; /* Ajuste o tamanho conforme necessário */
+    height: auto;
+    margin-bottom: 10px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header .slogan {
+    font-style: italic;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+section {
+    background-color: #444; /* cor de fundo para seções */
+    margin-bottom: 20px;
+    padding: 40px 0;
+}
+
+section h2 {
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.servico {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.servico img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.servico h3 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.servico p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.servico .preco {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #555; /* cor de fundo para formulários */
+    padding: 20px;
+    border-radius: 5px;
+}
+
+form label,
+form input,
+form select,
+form button {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+form label {
+    font-size: 1.2em;
+    color: #fff;
+}
+
+form input,
+form select {
+    padding: 10px;
+    font-size: 1em;
+    border: none;
+    border-radius: 3px;
+}
+
+form button {
+    background-color: #f0f0f0; /* cor de fundo para o botão */
+    color: #333; /* cor do texto do botão */
+    padding: 10px;
+    font-size: 1em;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #ccc; /* cor de fundo ao passar o mouse */
+}
+
+footer {
+    background-color: #222; /* cor de fundo do rodapé */
+    color: #fff; /* cor do texto do rodapé */
+    text-align: center;
+    padding: 20px 0;
+}
